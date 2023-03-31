@@ -7,8 +7,8 @@ import java.util.List;
 
 public class ArrayListAndLinkedListPractice {
 
-    private ArrayList<String> arrayList;
-    private LinkedList<String> linkedList;
+    private List<String> arrayList;
+    private List<String> linkedList;
 
     public ArrayListAndLinkedListPractice() {
         arrayList = new ArrayList<>(List.of("hello", "world"));
